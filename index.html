@@ -4,545 +4,826 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sadia | AI & Python Developer</title>
+    <title>Sadia Naveed | AI & Python Developer</title>
+
+    <meta name="description"
+        content="Sadia Naveed - AI & Python Developer skilled in Python, Artificial Intelligence, Chatbots, Data Analysis and EDA.">
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- Animated Background -->
-    <canvas id="particleCanvas"></canvas>
+<!-- ================= NAVBAR ================= -->
 
-    <!-- Navigation -->
-    <header class="navbar">
+<header class="navbar">
+    <div class="container nav-container">
 
-        <div class="logo">
-            <span>&lt;</span> SADIA <span>/&gt;</span>
-        </div>
+        <a href="#home" class="logo">
+            <span>S</span>
+            Sadia<span>.</span>
+        </a>
 
-        <nav>
-            <a href="#home">Home</a>
+        <nav id="navMenu">
+            <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#education">Education</a>
             <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
             <a href="#contact">Contact</a>
         </nav>
 
-    </header>
+        <button class="menu-btn" id="menuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+
+    </div>
+</header>
 
 
-    <!-- HERO -->
-    <section id="home" class="hero">
+<!-- ================= HERO ================= -->
 
-        <div class="hero-content">
+<section id="home" class="hero">
 
-            <p class="eyebrow">
-                AI • PYTHON • COMPUTER VISION
+    <div class="hero-bg"></div>
+
+    <div class="container hero-content">
+
+        <div class="hero-text reveal">
+
+            <p class="small-heading">
+                <span></span> HELLO, I'M
             </p>
 
             <h1>
-                Hi, I'm <span>Sadia</span>
+                Sadia <strong>Naveed</strong>
             </h1>
 
             <h2>
                 AI & Python Developer
             </h2>
 
-            <p class="hero-text">
-                I am an aspiring AI and Python developer passionate about
-                building intelligent applications, computer vision projects,
-                chatbots and creative software.
+            <p class="hero-description">
+                I build intelligent and practical solutions using
+                Python, Artificial Intelligence, Chatbots and Data Analysis.
+                Passionate about learning, creating and turning ideas into
+                meaningful digital experiences.
             </p>
 
-            <div class="buttons">
+            <div class="hero-buttons">
 
-                <a href="#projects" class="btn primary">
-                    View My Projects
+                <a href="#projects" class="btn primary-btn">
+                    View My Work
+                    <i class="fas fa-arrow-right"></i>
                 </a>
 
-                <a href="#contact" class="btn secondary">
+                <a href="#contact" class="btn secondary-btn">
                     Contact Me
                 </a>
 
             </div>
 
-        </div>
+            <div class="social-links">
 
+                <a href="https://github.com/" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
 
-        <!-- Developer Card -->
-        <div class="developer-card">
-
-            <div class="card-glow"></div>
-
-            <div class="code-header">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-
-            <div class="code-content">
-
-                <p>
-                    <span class="purple">class</span>
-                    <span class="blue">Developer</span>:
-                </p>
-
-                <p class="indent">
-                    <span class="purple">name</span> =
-                    <span class="pink">"Sadia"</span>
-                </p>
-
-                <p class="indent">
-                    <span class="purple">field</span> =
-                    <span class="pink">"Artificial Intelligence"</span>
-                </p>
-
-                <p class="indent">
-                    <span class="purple">skills</span> = [
-                </p>
-
-                <p class="double-indent">
-                    <span class="pink">"Python"</span>,
-                </p>
-
-                <p class="double-indent">
-                    <span class="pink">"Machine Learning"</span>,
-                </p>
-
-                <p class="double-indent">
-                    <span class="pink">"Computer Vision"</span>
-                </p>
-
-                <p class="indent">]</p>
-
-                <p class="indent">
-                    <span class="purple">status</span> =
-                    <span class="pink">"Learning & Building"</span>
-                </p>
+                <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
 
             </div>
 
         </div>
 
-    </section>
+
+        <div class="hero-card reveal">
+
+            <div class="code-window">
+
+                <div class="window-top">
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <p>developer.py</p>
+                </div>
+
+                <div class="code-content">
+
+                    <p>
+                        <span class="purple">class</span>
+                        <span class="blue">Developer</span>:
+                    </p>
+
+                    <p class="indent">
+                        name =
+                        <span class="green">"Sadia Naveed"</span>
+                    </p>
+
+                    <p class="indent">
+                        role =
+                        <span class="green">"AI Developer"</span>
+                    </p>
+
+                    <p class="indent">
+                        skills = [
+                    </p>
+
+                    <p class="double-indent">
+                        <span class="green">"Python"</span>,
+                    </p>
+
+                    <p class="double-indent">
+                        <span class="green">"AI"</span>,
+                    </p>
+
+                    <p class="double-indent">
+                        <span class="green">"Chatbots"</span>,
+                    </p>
+
+                    <p class="double-indent">
+                        <span class="green">"Data Analysis"</span>
+                    </p>
+
+                    <p class="indent">]</p>
+
+                    <p class="indent">
+                        passion =
+                        <span class="green">"Build & Learn"</span>
+                    </p>
+
+                    <p class="cursor-line">
+                        <span class="purple">return</span> success<span class="cursor">|</span>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-down">
+        <span>Scroll to explore</span>
+        <i class="fas fa-arrow-down"></i>
+    </div>
+
+</section>
 
 
-    <!-- ABOUT -->
-    <section id="about" class="section">
+<!-- ================= ABOUT ================= -->
 
-        <div class="section-heading">
+<section id="about" class="section">
 
-            <p>GET TO KNOW ME</p>
+    <div class="container">
 
-            <h2>
-                About <span>Me</span>
-            </h2>
+        <div class="section-heading reveal">
+
+            <span>01</span>
+
+            <div>
+                <p>GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
 
         </div>
 
 
         <div class="about-grid">
 
-            <div class="about-text">
-
-                <p>
-                    I'm Sadia, an aspiring AI and Python Developer with a
-                    strong interest in Artificial Intelligence and modern
-                    technology.
-                </p>
-
-                <p>
-                    I enjoy learning Python, Machine Learning, Computer Vision,
-                    chatbots and web development while turning what I learn
-                    into practical projects.
-                </p>
-
-                <p>
-                    My goal is to continue improving my technical skills,
-                    build meaningful projects and grow as an AI developer.
-                </p>
-
-            </div>
-
-
-            <div class="about-card">
-
-                <div class="info-item">
-                    <div class="info-icon">🎓</div>
-
-                    <div>
-                        <small>Education</small>
-                        <strong>Intermediate in Computer Science</strong>
-                    </div>
-                </div>
-
-
-                <div class="info-item">
-                    <div class="info-icon">🤖</div>
-
-                    <div>
-                        <small>Focus</small>
-                        <strong>AI & Python Development</strong>
-                    </div>
-                </div>
-
-
-                <div class="info-item">
-                    <div class="info-icon">🚀</div>
-
-                    <div>
-                        <small>Current Status</small>
-                        <strong>Learning & Building Projects</strong>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- EDUCATION -->
-    <section id="education" class="section">
-
-        <div class="section-heading">
-
-            <p>MY ACADEMIC JOURNEY</p>
-
-            <h2>
-                My <span>Education</span>
-            </h2>
-
-        </div>
-
-
-        <div class="education-card">
-
-            <div class="education-icon">
-                🎓
-            </div>
-
-            <div>
-
-                <p class="education-label">
-                    INTERMEDIATE
-                </p>
+            <div class="about-text reveal">
 
                 <h3>
-                    Intermediate in Computer Science (ICS)
+                    Turning curiosity into
+                    <span>intelligent solutions.</span>
                 </h3>
 
                 <p>
-                    Recently completed Intermediate in Computer Science.
+                    I am an aspiring AI & Python Developer with a strong
+                    interest in Artificial Intelligence, programming and
+                    data-driven technologies.
                 </p>
 
-                <span class="education-status">
-                    Completed
-                </span>
+                <p>
+                    I have developed my foundation through my ICS education
+                    and professional AI training, where I worked on practical
+                    Python, AI, chatbot and data analysis projects.
+                </p>
+
+                <p>
+                    I enjoy learning new technologies, solving problems
+                    through code and creating projects that combine
+                    creativity with technology.
+                </p>
+
+            </div>
+
+
+            <div class="about-stats reveal">
+
+                <div class="stat-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Python</h3>
+                    <p>Development</p>
+                </div>
+
+                <div class="stat-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI</h3>
+                    <p>Fundamentals</p>
+                </div>
+
+                <div class="stat-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data</h3>
+                    <p>Analysis & EDA</p>
+                </div>
+
+                <div class="stat-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Chatbots</h3>
+                    <p>AI Solutions</p>
+                </div>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- SKILLS -->
-    <section id="skills" class="section">
+<!-- ================= SKILLS ================= -->
 
-        <div class="section-heading">
+<section id="skills" class="section light-section">
 
-            <p>WHAT I WORK WITH</p>
+    <div class="container">
 
-            <h2>
-                My <span>Skills</span>
-            </h2>
+        <div class="section-heading reveal">
+
+            <span>02</span>
+
+            <div>
+                <p>WHAT I WORK WITH</p>
+                <h2>Skills & Technologies</h2>
+            </div>
 
         </div>
 
 
         <div class="skills-grid">
 
-            <div class="skill-card">
-                <div class="skill-icon">🐍</div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">
+                    <i class="fab fa-python"></i>
+                </div>
+
                 <h3>Python</h3>
-                <p>Programming & automation</p>
+
+                <p>
+                    Programming, problem solving and practical development.
+                </p>
+
+                <div class="skill-line">
+                    <span style="width: 90%"></span>
+                </div>
             </div>
 
 
-            <div class="skill-card">
-                <div class="skill-icon">🤖</div>
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+
                 <h3>Artificial Intelligence</h3>
-                <p>AI applications & intelligent systems</p>
+
+                <p>
+                    AI fundamentals, concepts and practical applications.
+                </p>
+
+                <div class="skill-line">
+                    <span style="width: 85%"></span>
+                </div>
+
             </div>
 
 
-            <div class="skill-card">
-                <div class="skill-icon">🧠</div>
-                <h3>Machine Learning</h3>
-                <p>Models & data-driven solutions</p>
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+
+                <h3>Chatbots</h3>
+
+                <p>
+                    Building conversational AI and chatbot projects.
+                </p>
+
+                <div class="skill-line">
+                    <span style="width: 82%"></span>
+                </div>
+
             </div>
 
 
-            <div class="skill-card">
-                <div class="skill-icon">👁️</div>
-                <h3>Computer Vision</h3>
-                <p>Image & object detection</p>
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+
+                <h3>Data Analysis</h3>
+
+                <p>
+                    Data cleaning, exploration and analytical workflows.
+                </p>
+
+                <div class="skill-line">
+                    <span style="width: 85%"></span>
+                </div>
+
             </div>
 
 
-            <div class="skill-card">
-                <div class="skill-icon">🎯</div>
-                <h3>YOLO</h3>
-                <p>Real-time object detection</p>
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+
+                <h3>Exploratory Data Analysis</h3>
+
+                <p>
+                    Finding patterns, insights and trends in datasets.
+                </p>
+
+                <div class="skill-line">
+                    <span style="width: 82%"></span>
+                </div>
+
             </div>
 
 
-            <div class="skill-card">
-                <div class="skill-icon">🌐</div>
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+
                 <h3>HTML & CSS</h3>
-                <p>Modern web interfaces</p>
+
+                <p>
+                    Creating clean and responsive web interfaces.
+                </p>
+
+                <div class="skill-line">
+                    <span style="width: 88%"></span>
+                </div>
+
             </div>
 
 
-            <div class="skill-card">
-                <div class="skill-icon">💬</div>
-                <h3>Chatbot Development</h3>
-                <p>AI-powered conversations</p>
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+
+                <h3>Jupyter Notebook</h3>
+
+                <p>
+                    Python development, analysis and experimentation.
+                </p>
+
+                <div class="skill-line">
+                    <span style="width: 88%"></span>
+                </div>
+
             </div>
 
 
-            <div class="skill-card">
-                <div class="skill-icon">🎮</div>
-                <h3>Game Development</h3>
-                <p>Creative Python projects</p>
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fas fa-terminal"></i>
+                </div>
+
+                <h3>PyCharm</h3>
+
+                <p>
+                    Python development and project building environment.
+                </p>
+
+                <div class="skill-line">
+                    <span style="width: 85%"></span>
+                </div>
+
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
+<!-- ================= EXPERIENCE ================= -->
 
-        <div class="section-heading">
+<section id="experience" class="section">
 
-            <p>WHAT I'VE BUILT</p>
+    <div class="container">
 
-            <h2>
-                Featured <span>Projects</span>
-            </h2>
+        <div class="section-heading reveal">
+
+            <span>03</span>
+
+            <div>
+                <p>MY PROFESSIONAL JOURNEY</p>
+                <h2>Experience</h2>
+            </div>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="date">
+                        2 Months
+                    </span>
+
+                    <h3>
+                        AI & Python Trainee
+                    </h3>
+
+                    <h4>
+                        Corvit Systems
+                    </h4>
+
+                    <p>
+                        Completed practical training focused on Python,
+                        Artificial Intelligence fundamentals, chatbots,
+                        data analysis and exploratory data analysis.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>AI</span>
+                        <span>Chatbots</span>
+                        <span>Data Analysis</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="section light-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span>04</span>
+
+            <div>
+                <p>MY RECENT WORK</p>
+                <h2>Projects</h2>
+            </div>
 
         </div>
 
 
         <div class="projects-grid">
 
-            <!-- PROJECT 1 -->
-            <article class="project-card">
 
-                <div class="project-top">
+            <article class="project-card reveal">
 
-                    <span class="project-number">
-                        01
-                    </span>
-
-                    <span class="project-symbol">
-                        👁️
-                    </span>
-
+                <div class="project-number">
+                    01
                 </div>
 
-                <h3>
-                    AI Object Detection
-                </h3>
+                <div class="project-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+
+                <h3>Student Data Analysis</h3>
 
                 <p>
-                    A computer vision project using YOLO to detect and
-                    identify objects in images and videos.
+                    Exploratory analysis of student data using Python,
+                    Pandas and Jupyter Notebook to discover patterns
+                    and meaningful insights.
                 </p>
 
-                <div class="tags">
-
+                <div class="project-tags">
                     <span>Python</span>
-                    <span>YOLO</span>
-                    <span>Computer Vision</span>
-
+                    <span>Pandas</span>
+                    <span>EDA</span>
+                    <span>Jupyter</span>
                 </div>
 
             </article>
 
 
-            <!-- PROJECT 2 -->
-            <article class="project-card">
+            <article class="project-card reveal">
 
-                <div class="project-top">
-
-                    <span class="project-number">
-                        02
-                    </span>
-
-                    <span class="project-symbol">
-                        🤖
-                    </span>
-
+                <div class="project-number">
+                    02
                 </div>
 
-                <h3>
-                    AI Chatbot
-                </h3>
+                <div class="project-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+
+                <h3>AI Chatbot</h3>
 
                 <p>
-                    An intelligent chatbot project designed to interact
-                    with users and provide useful AI-powered responses.
+                    A conversational AI project designed to provide
+                    interactive responses using modern AI concepts
+                    and chatbot technologies.
                 </p>
 
-                <div class="tags">
+                <div class="project-tags">
+                    <span>AI</span>
+                    <span>Python</span>
+                    <span>Chatbot</span>
+                </div>
 
+            </article>
+
+
+            <article class="project-card reveal">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <div class="project-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+
+                <h3>Object Detection</h3>
+
+                <p>
+                    Computer vision project exploring object detection
+                    in images and videos using Python and AI-based
+                    detection techniques.
+                </p>
+
+                <div class="project-tags">
                     <span>Python</span>
                     <span>AI</span>
-                    <span>Chatbot</span>
-
+                    <span>Computer Vision</span>
                 </div>
 
             </article>
 
 
-            <!-- PROJECT 3 -->
-            <article class="project-card">
+            <article class="project-card reveal">
 
-                <div class="project-top">
-
-                    <span class="project-number">
-                        03
-                    </span>
-
-                    <span class="project-symbol">
-                        🎮
-                    </span>
-
+                <div class="project-number">
+                    04
                 </div>
 
-                <h3>
-                    Python Game Development
-                </h3>
+                <div class="project-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+
+                <h3>Personal Portfolio</h3>
 
                 <p>
-                    Interactive games created with Python to practice
-                    programming logic, creativity and problem solving.
+                    A responsive personal portfolio designed to showcase
+                    my skills, learning journey, projects and experience.
                 </p>
 
-                <div class="tags">
-
-                    <span>Python</span>
-                    <span>Game Development</span>
-
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
                 </div>
 
             </article>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- LEARNING -->
-    <section class="section learning-section">
+<!-- ================= EDUCATION ================= -->
 
-        <div class="learning-box">
+<section id="education" class="section">
 
-            <div class="learning-icon">
-                🚀
-            </div>
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span>05</span>
 
             <div>
+                <p>MY ACADEMIC JOURNEY</p>
+                <h2>Education & Training</h2>
+            </div>
 
-                <p class="eyebrow">
-                    MY JOURNEY
-                </p>
+        </div>
 
-                <h2>
-                    Learning & <span>Building</span>
-                </h2>
 
-                <p>
-                    I'm continuously learning Artificial Intelligence and
-                    Python while building practical projects that help me
-                    strengthen my development skills.
-                </p>
+        <div class="education-grid">
+
+
+            <div class="education-card reveal">
+
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+
+                <div>
+
+                    <span class="education-type">
+                        INTERMEDIATE
+                    </span>
+
+                    <h3>
+                        ICS — Intermediate in Computer Science
+                    </h3>
+
+                    <h4>
+                        Govt. Graduate Girls College,
+                        Murree Road, Rawalpindi
+                    </h4>
+
+                    <p>
+                        Academic foundation in Computer Science
+                        and related subjects.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="education-card reveal">
+
+                <div class="education-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+
+                <div>
+
+                    <span class="education-type">
+                        PROFESSIONAL TRAINING
+                    </span>
+
+                    <h3>
+                        AI Fundamental & Professional Course
+                    </h3>
+
+                    <h4>
+                        Corvit Systems
+                    </h4>
+
+                    <p>
+                        Practical training covering Python, Artificial
+                        Intelligence, Chatbots, Data Analysis and
+                        Exploratory Data Analysis.
+                    </p>
+
+                </div>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
-    <!-- CONTACT -->
-    <section id="contact" class="section contact-section">
+<!-- ================= CONTACT ================= -->
 
-        <div class="section-heading">
+<section id="contact" class="contact-section">
 
-            <p>LET'S CONNECT</p>
+    <div class="container">
 
-            <h2>
-                Let's Build Something <span>Great</span>
-            </h2>
+        <div class="contact-content reveal">
 
-            <p class="contact-description">
-                I'm always excited to learn, create and explore new
-                possibilities with AI and technology.
+            <p class="contact-label">
+                LET'S CONNECT
             </p>
 
+            <h2>
+                Have an idea?
+                <span>Let's build it.</span>
+            </h2>
+
+            <p>
+                I'm always interested in learning, building new projects
+                and exploring opportunities in AI and Python development.
+            </p>
+
+
+            <div class="contact-details">
+
+                <a href="mailto:sadiyaa00aa@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    sadiyaa00aa@gmail.com
+                </a>
+
+                <a href="tel:0380153761">
+                    <i class="fas fa-phone"></i>
+                    0380153761
+                </a>
+
+                <span>
+                    <i class="fas fa-location-dot"></i>
+                    Rawalpindi, Pakistan
+                </span>
+
+            </div>
+
+
+            <div class="contact-buttons">
+
+                <a href="mailto:sadiyaa00aa@gmail.com"
+                    class="btn primary-btn">
+                    Get In Touch
+                    <i class="fas fa-paper-plane"></i>
+                </a>
+
+            </div>
+
         </div>
 
+    </div>
 
-        <div class="contact-buttons">
-
-            <a href="mailto:YOUR_EMAIL_HERE" class="btn primary">
-                ✉ Email Me
-            </a>
-
-            <a href="YOUR_GITHUB_LINK_HERE"
-               target="_blank"
-               class="btn secondary">
-                GitHub
-            </a>
-
-            <a href="YOUR_LINKEDIN_LINK_HERE"
-               target="_blank"
-               class="btn secondary">
-                LinkedIn
-            </a>
-
-        </div>
-
-    </section>
+</section>
 
 
-    <!-- FOOTER -->
-    <footer>
+<!-- ================= FOOTER ================= -->
 
-        <div class="footer-logo">
-            SADIA
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+            <h3>Sadia<span>.</span></h3>
+            <p>AI & Python Developer</p>
         </div>
 
         <p>
-            AI & Python Developer • Learning • Building • Creating
+            © <span id="year"></span> Sadia Naveed. All rights reserved.
         </p>
 
-        <p class="copyright">
-            © 2026 Sadia. All rights reserved.
-        </p>
+        <div class="footer-socials">
 
-    </footer>
+            <a href="https://github.com/" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
 
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
